@@ -1,0 +1,109 @@
+.contato{
+	width:100%;
+	background:#353b48;
+	position:relative;
+	top: -14em;
+	box-shadow: -3em -3em 1.5em rgba(0, 0, 0, .4);
+
+}
+.contato::before{
+	content:'';
+	width:50%;
+	height:100px;
+	position:absolute;
+	top:-48px;
+	left:0;
+	background:#353b48;
+	transform:skewY(5deg);
+}
+.contato::after{
+	content:'';
+	width:50%;
+	height:100px;
+	position:absolute;
+	top:-48px;
+	right:0;
+	background:#353b48;
+	transform:skewY(-5deg);
+}
+
+.contato .conteudo-sessao
+{
+	transform: skewY(0);
+}
+
+.icone-contato
+{
+	width: 3em;
+}
+
+.linha
+{
+	width: 100%;
+	size: 1em;
+	background-color: #fff;
+}
+
+.ou
+{
+	background-color: #353b48;
+	position: relative;
+	top: -2.7em;
+	width: 2em;
+}
+
+.icone-email
+{
+	position: relative;
+	top: -2em;
+}
+
+.input
+{
+	width: 100%;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	padding: .9em;
+	font-size: 1.1em;
+	background-color: #fff;
+	color: #343434;
+	border-radius: 5px;
+	box-shadow: 0em 1em 1.5em rgba(0, 0, 0, .4);
+	margin-bottom: 1em;
+	transition: .2s;
+	margin-top: .5em;
+}
+
+.textarea
+{
+	resize: none;
+	height: 9em;
+	font-size: 1.1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn-enviar
+{
+	border: none;
+	outline: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: .5em;
+	font-size: 1.4em;
+	background-color: #4cd137;
+	text-align: center;
+	font-weight: bold;
+	color: #353b48;
+	font-family: "Tauri", sans-serif;
+	cursor: pointer;
+	transition: .2s;
+	border: 1px solid #4cd137;
+}
+
+.btn-enviar:hover
+{
+	background-color: #353b48;
+	color: #4cd137;
+}

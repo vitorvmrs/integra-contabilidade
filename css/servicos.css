@@ -1,0 +1,109 @@
+.servicos
+{
+	background-color: #273c75;
+	z-index: 5;
+	box-shadow: 0em 1em 1.5em rgba(0, 0, 0, .4);
+}
+
+.item-servicos
+{
+	width: 100%;
+	padding: 1.5em .5em;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0em 1em 1.5em rgba(0, 0, 0, .4);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 2em;
+	opacity: 0;
+	box-sizing: border-box;
+}
+
+.icone-servico
+{
+	width: 7em;
+	height: 7em;
+	background-color: #273c75;
+	border-radius: 50%;
+	box-shadow: inset 0em 1em 1.5em rgba(0, 0, 0, .4);
+	margin: 1em ;
+}
+
+@media only screen and (max-width: 600px)
+{
+	.icone-servico
+	{
+		width: 5em;
+		height: 5em;
+	}
+}
+
+@media only screen and (max-width: 585px)
+{
+
+	.item-servicos
+	{
+		flex-direction: column;
+	}
+
+}
+
+.titulo-servico
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Tauri', sans-serif;
+	color: #343434;
+	margin-bottom: 1em;
+}
+
+.titulo-servico-cima
+{
+	display: none;
+}
+
+.texto-servico
+{
+	font-size: 1.2em;
+	font-family: 'Open Sans', sans-serif;
+	color: #454545;
+	margin: 2em auto;
+}
+
+.item-servicos .texto-servico
+{
+	text-align: justify;
+} 
+
+.conteudo-servicos
+{
+	width: 70%;
+}
+
+#assessoria
+{
+	background-image: url('../imagens/assessoria.png');
+	background-size: 75% 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 999;
+}
+
+#consultoria
+{
+	background-image: url('../imagens/consultoria.png');
+	background-size: 60% 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 999;
+}
+
+#auditoria
+{
+	background-image: url('../imagens/auditoria.png');
+	background-size: 60% 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 999;
+}
